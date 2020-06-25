@@ -1,0 +1,104 @@
+body
+{
+margin:0;
+padding:0;
+font-family:sans-serif;
+color:#b18dae;
+
+
+}
+/*登录窗口*/
+.box
+{
+	position: absolute;
+    top:30%;
+    left:42%;
+    width:250px;
+    padding:25px;
+    background:rgba(1,1,1,.6);
+    box-sizing:border-box;
+    box-shadow:0 15px 25px rgba(0,0,0,.5);
+    border-radius:30px;/*圆角边框*/
+}
+/*标题*/
+.menu{
+	top:8.5%;
+	position:absolute;
+    height:100%;
+    width:15%;
+    background: #354144;
+}
+
+
+.title{
+	color:#b18dae;
+	font-size:20px;
+	position:absolute; 
+	left:13%;
+	top:10%;
+}
+
+.box .inputBox{
+	position:relative;
+}
+.msg{
+    font-size:2px;
+    color:#DCCF77;
+}
+
+input.a{
+	background:transparent;
+	width:100%;
+	padding:1px 0px;
+	margin:10px 0px;
+	font-size:13px;
+	color:#b18dae;
+	border:none;
+	outline:none;
+	border-bottom:1px solid #bd7db9;	
+}
+button.a{
+	background:#a075b0;
+	border:none;
+	outline:none;
+	color:#cecec4;
+	cursor:pointer;
+	border-radius:3rem;
+	height:2rem;
+	width:100%;
+}
+.inputBox::after{
+    content:attr(placeholder);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.1rem;
+    color: #c1c1bb;
+    transition: .3s;
+}
+
+.inputBox.focus::after{
+	color:#a1a1a1;
+    top:-29%;
+    font-size:.9rem;
+}
+/*输入框宽度*/
+.index{
+    width: 12rem;
+    margin: 1rem 0 0;
+}
+
+form .inputBox{
+    position: relative;
+    opacity: 1;
+    height: 2rem;
+   
+    width: 100%;
+    margin: 2rem 0;
+    transition: .4s;
+}
+.navbar {
+	border-radius: 0px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
